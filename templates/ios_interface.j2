@@ -1,0 +1,11 @@
+{% for interface_item in interfaces %}
+interface {{ interface_item.name }}
+   {% if interface_item.description is defined %}
+   description {{ interface_item.description }} 
+   {% endif %}
+{% if interface_item.ipv4addr is defined and interface_item.subnet is defined %}
+   ip address {{ interface_item.ipv4addr }} {{interface_item.subnet}}
+{% endif %}
+   no shutdown
+{% endfor %}
+

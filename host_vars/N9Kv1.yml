@@ -1,0 +1,23 @@
+interfaces:
+  - name: Loopback200
+    description: "Loopback200"
+    ipv4addr: "10.223.223.100"
+    subnet: "255.255.255.255"
+  - name: Loopback201
+    description: "Loopback201"
+    ipv4addr: "10.223.223.101"
+    subnet: "255.255.255.255"
+  - name: Loopback202
+    description: "Loopback202"
+    ipv4addr: "10.223.223.102"
+    subnet: "255.255.255.255"
+  - name: Loopback203
+    description: "Loopback203"
+    ipv4addr: "10.223.223.103"
+    subnet: "255.255.255.255"
+  - name: Loopback204
+    description: "Loopback204"
+    ipv4addr: "10.223.223.104"
+    subnet: "255.255.255.255"
+
+  

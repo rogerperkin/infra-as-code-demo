@@ -1,0 +1,21 @@
+interface Loopback200
+      description Loopback200 
+      ip address 10.223.223.100 255.255.255.255
+   no shutdown
+interface Loopback201
+      description Loopback201 
+      ip address 10.223.223.101 255.255.255.255
+   no shutdown
+interface Loopback202
+      description Loopback202 
+      ip address 10.223.223.102 255.255.255.255
+   no shutdown
+interface Loopback203
+      description Loopback203 
+      ip address 10.223.223.103 255.255.255.255
+   no shutdown
+interface Loopback204
+      description Loopback204 
+      ip address 10.223.223.104 255.255.255.255
+   no shutdown
+

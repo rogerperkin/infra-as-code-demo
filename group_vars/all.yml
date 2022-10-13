@@ -1,0 +1,27 @@
+---
+# Default Login details 
+
+ansible_user: "roger"
+ansible_ssh_pass: "cisco"
+ansible_network_os: "ios"
+ansible_connection: "network_cli"
+
+# Classic Provider Details for use with aireos
+
+legacy_credentials:
+  host: "{{ ansible_host }}"
+  username: "roger"
+  password: "Password$"
+
+source_directory: /home/roger/network-programmability/SCRIPTS/Ansible/
+dest_directory: /home/roger/
+
+
+
+
+
+
+  
+
+
+
